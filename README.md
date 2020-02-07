@@ -8,11 +8,11 @@ This project aims at building one such patient monitoring system with Apache Kaf
 ### Components:
 This project is divided into three modules.
 
-  1.Data generator - Generates patient health parameters for given patients
+  1. Data generator - Generates patient health parameters for given patients
 
-  2.Edge processsing - Edge level processing like anonymization and basic filtering. Achieved with the help of Apache Edgent.
+  2. Edge processsing - Edge level processing like anonymization and basic filtering. Achieved with the help of Apache Edgent.
 
-  3.Stream processing - Filter the anamoly records based on the configured threshold for a specified time window. Save the anamoly records in RDBMS which could then be sent as alerts. Achieved with the help of Apache Kafka Streams and connect.
+  3. Stream processing - Filter the anamoly records based on the configured threshold for a specified time window. Save the anamoly records in RDBMS which could then be sent as alerts. Achieved with the help of Apache Kafka Streams and connect.
 
 ### Getting started
 git clone https://github.com/vignesh093/PatientHealthMonitoring.git
